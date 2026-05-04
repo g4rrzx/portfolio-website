@@ -1,0 +1,114 @@
+{% extends "layout.html" %}
+{% from "components/fieldset.html" import fieldset %}
+
+{% block content %}
+  <div class="flex flex-col gap-4">
+    <!-- <WhoAmI /> -->
+    {% call fieldset("cat README.md") %}
+      <div class="flex flex-col lg:flex-row gap-3 text-lg">
+        <article class="text-black text-lg prose-p:m-0 flex flex-col gap-4">
+          <p>
+            I'm <strong>Tegar Andriyansyah</strong> — an Informatics
+            Engineering student passionate about <strong>AI</strong>,
+            <strong>Automation</strong>, and <strong>Blockchain</strong>.
+          </p>
+          <p>
+            I like exploring where these three meet: agent-driven workflows
+            that automate real work, on-chain systems that stay open and
+            verifiable, and tooling that makes both feel effortless to ship.
+            I keep experimenting with new protocols and frameworks to stay
+            aligned with the fast-moving crypto and AI space.
+          </p>
+          <p>
+            I build on <a href="https://base.org">Base</a> and
+            <a href="https://farcaster.xyz">Farcaster</a> with
+            <a href="https://soliditylang.org">Solidity</a>,
+            <a href="https://www.typescriptlang.org/">TypeScript</a>,
+            <a href="https://nextjs.org">Next.js</a>,
+            <a href="https://docs.ethers.org/">Ethers.js</a>, and
+            <a href="https://getfoundry.sh">Foundry</a>.
+          </p>
+          <p>
+            Based in Indonesia · Remote-first · Open to collaborations on
+            AI, automation, and Web3 projects. Feel free to reach out if
+            you want to build something together.
+          </p>
+        </article>
+        <img
+          src="/assets/me.jpg"
+          alt="Tegar Andriyansyah"
+          class="h-[350px] object-cover"
+          loading="eager"
+        />
+      </div>
+    {% endcall %}
+    {% call fieldset("cat ~/education.md") %}
+      <article>
+        Where I've been learning the craft.
+        <ul>
+          <li>
+            <strong>Universitas Pamulang</strong> — Informatics Engineering
+            (Teknik Informatika)
+            <br />
+            <em>2023 – present · Semester 6</em>
+          </li>
+          <li>
+            <strong>SMK Link and Match</strong> — Multimedia
+            <br />
+            <em>2020 – 2023 · Final average 91.86</em>
+          </li>
+        </ul>
+      </article>
+    {% endcall %}
+    {% call fieldset("ls ~/projects") %}
+      {{ lists["projects"]|safe }}
+    {% endcall %}
+    {% call fieldset("ls ~/research/") %}
+      <article>
+        Deep dives into the protocol layer — cryptography, consensus, and
+        mechanism design.
+        <ul>
+          <li>
+            <a
+              href="https://reminiscent-catamaran-f52.notion.site/Base-Network-Research-310b82d4d88b800f9cf8db5ef6514286"
+            >
+              Deep Dive: Base L2 Financial Infrastructure
+            </a>
+            — a 2026 perspective on Coinbase's Layer 2 evolution, the Unified
+            Base Stack, native biometric authentication, and its dominance in
+            institutional stablecoin liquidity.
+            <em>[Layer 2 · Unified Stack · Base]</em>
+          </li>
+        </ul>
+      </article>
+    {% endcall %}
+    {% call fieldset("cat ~/contact.md") %}
+      <article>
+        Whether you have a Web3 project in mind, need smart contract
+        development, or want to collaborate on research — I'd love to hear
+        from you.
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:tegarandrian87az@gmail.com">
+              tegarandrian87az@gmail.com
+            </a>
+          </li>
+          <li>
+            GitHub: <a href="https://github.com/g4rrzx">@g4rrzx</a>
+          </li>
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/tegar86/">tegar86</a>
+          </li>
+          <li>
+            X / Twitter: <a href="https://x.com/g4rrzx">@g4rrzx</a>
+          </li>
+          <li>
+            Telegram: <a href="https://t.me/g4rrzx">@g4rrzx</a>
+          </li>
+        </ul>
+      </article>
+    {% endcall %}
+  </div>
+{% endblock %}

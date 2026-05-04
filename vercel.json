@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "installCommand": "pnpm install && pip3 install uv && uv sync --frozen --no-dev",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "framework": null
+}
