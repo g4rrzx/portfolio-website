@@ -2,7 +2,7 @@
 title: "HashRush"
 summary: "A Web3 crypto-mining mini-app on Farcaster and Base"
 coverImage: "/assets/hashrush.png"
-order: 3
+order: 18
 ---
 
 **HashRush** is a Web3 crypto-mining simulation mini-app built for

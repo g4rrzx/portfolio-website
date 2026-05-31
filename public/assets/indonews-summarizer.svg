@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="IndoNews Summarizer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#ef4444" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <rect width="600" height="400" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity="0.04" stroke-width="1">
+    <path d="M0 100H600M0 200H600M0 300H600M150 0V400M300 0V400M450 0V400"/>
+  </g>
+  <rect x="1.5" y="1.5" width="597" height="397" fill="none" stroke="#ef4444" stroke-opacity="0.5" stroke-width="3"/>
+  <circle cx="92" cy="92" r="44" fill="#ef4444" fill-opacity="0.12" stroke="#ef4444" stroke-width="2"/>
+  <text x="92" y="92" text-anchor="middle" dominant-baseline="central" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="34" font-weight="700" fill="#ef4444">📰</text>
+  <text x="48" y="250" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" font-weight="700" fill="#f0f6fc">IndoNews Summarizer</text>
+  <text x="48" y="292" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="22" fill="#ef4444">AI news in 5 points</text>
+  <text x="48" y="356" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="18" fill="#8b949e">github.com/g4rrzx</text>
+</svg>

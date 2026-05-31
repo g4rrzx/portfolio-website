@@ -2,7 +2,7 @@
 title: "Avalanche Full-stack dApp"
 summary: "A 5-day full-stack dApp built on Avalanche Fuji — smart contracts, Next.js frontend, NestJS backend"
 coverImage: "/assets/avalanche-fullstack-dapp.png"
-order: 4
+order: 20
 ---
 
 **Avalanche Full-stack dApp** is a complete Web3 application built on

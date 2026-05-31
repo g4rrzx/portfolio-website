@@ -2,7 +2,7 @@
 title: "Farcaster Roulette Mini-App"
 summary: "Daily spins, automated quest verification, and a neon reward system on Farcaster"
 coverImage: "/assets/rouletee.png"
-order: 3
+order: 19
 ---
 
 **Farcaster Roulette** is an interactive Web3 mini-app featuring daily

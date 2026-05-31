@@ -2,7 +2,7 @@
 title: "Weather Notifier Agent"
 summary: "An autonomous AI agent that delivers smart weather alerts and improves itself"
 coverImage: "/assets/weather-notifier-agent.png"
-order: 1
+order: 16
 ---
 
 **Weather Notifier Agent** is an autonomous AI agent that fetches live

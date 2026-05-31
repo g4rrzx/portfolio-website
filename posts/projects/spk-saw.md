@@ -2,7 +2,7 @@
 title: "SPK-SAW — Monitor Choice"
 summary: "A Decision Support System for choosing computer monitors, using the Simple Additive Weighting method"
 coverImage: "/assets/spk-saw.png"
-order: 2
+order: 17
 ---
 
 **SPK-SAW** (*Sistem Pendukung Keputusan — Simple Additive Weighting*) is
